@@ -1,0 +1,125 @@
+body{
+    background-color: rgba(100,65,164,1);
+}
+
+.modal{
+    display:none;
+    background-color: rgba(0,0,0,0.7);
+    width: 100vw;
+    height: 100vh;
+}
+
+#instructions{
+    align-items: center;
+    margin: 100px auto;
+    width: 75vw;
+    height: 75vh;
+    background: url("Images/Instructions.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.title_combo{
+    height: 200px;
+    width: 200px;
+    margin-bottom: -50px;
+}
+
+.title_font{
+    font-family: 'Permanent Marker', cursive;
+    position: absolute;
+    color: rgba(100,65,164,1);
+    margin-bottom: -50px;
+    margin-top: 40px;
+    margin-left: -80px;
+    transform: rotate(320deg);
+    font-size: 2.5em;
+}
+
+#twitch_logo{
+    width: 100%;
+    height: 100%;
+    background: url("Images/Twitch_Purple_RGB.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+#jumbotron_online{
+    margin: 40px auto;
+    /*background-color: rgba(255,255,255,0.8);*/
+    background-color: rgba(20,20,20,0.6);
+    max-width: 700px;
+    box-shadow: rgba(255,255,255,0.4) -8px -6px 5px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#jumbotron_online a{
+    text-decoration: none;
+}
+
+
+.channel_banner{
+    display:flex;
+    width: 100%;
+    color:white;
+    background-color:rgba(0,0,0,0.6);
+    border-radius: 5px;
+    padding-bottom: 15px;
+    justify-content: flex-start;
+}
+
+.online{
+    box-shadow: forestgreen  -6px -5px 5px; !important;
+}
+
+.offline{
+    box-shadow: red -6px -5px 5px;
+}
+
+.channel_logo{
+    align-self: center;
+    width: 80px;
+    height: 80px;
+}
+
+.channel_logo_img{
+    width: 100%;
+    border-radius: 50px;
+    padding: 10px 10px 10px 10px;
+}
+
+.channel_name{
+    /*max-width: 500px;*/
+    font-size: 5vh;
+    margin-left: 10px;
+    padding-right: 10px;
+    align-self: center;
+    justify-content: center;
+}
+
+.channel_status{
+    display:flex;
+    width: 100%;
+    background-color:rgba(0,0,0,0.6);
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    border-radius: 5px;
+    /*margin-top: -10px;*/
+    padding: 10px 0px 10px 0px;
+    margin-bottom: 20px;
+}
+
+.channel_content{
+    background-color: black;
+    margin-top: -10px;
+    border: groove rgba(0,0,0,1) 5px;
+    /*box-shadow: rgba(0,0,0,0.8) -8px -5px 5px;*/
+}
+

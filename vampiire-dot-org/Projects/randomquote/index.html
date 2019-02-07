@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- META TAGS -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- FONT AWESOME -->
+    <script src="https://use.fontawesome.com/c60112b331.js"></script>
+
+    <!-- FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+    <!-- TAB TITLE -->
+    <title>Random Quotes</title>
+
+    <style>
+
+        body{
+            background: url("Images/Background_mini.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: top;
+            height: 100vh;
+            width: 100vw;
+        }
+
+        .wrapper {
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+        }
+
+        .icon{
+            width: 5rem;
+            height: 5rem;
+            margin: 0px 5px 0px 5px;
+        }
+
+        #New_Quote{
+            background: url("Images/Cloud-icon_png.png");
+            background-size: cover;
+            border: none;
+            outline: none;
+        }
+
+        #Tweet{
+            background: url("Images/Twitter_Icon_png.png");
+            background-size: cover;
+        }
+
+
+
+    </style>
+
+</head>
+<body>
+<!-- Quote Body -->
+<div class="container-fluid">
+    <div class="row" style="margin-top: 75px">
+        <div class="col-md-8 col-md-offset-2">
+            <div class="jumbotron" style="background-color: black; opacity:0.4; border-radius: 5px; width:100%">
+                <p class="text-center" style="color:white; padding: 0px 20px 0px 20px">
+                    <i class="fa fa-quote-left fa-1x" aria-hidden="true"></i>
+                    <span id="quote">Click the cloud button for a new quote</span>
+                    <i class="fa fa-quote-right fa-1x" aria-hidden="true"></i>
+                </p>
+                <p class="text-right" style="margin-bottom:-20px">
+                    <!--<span id="author" style="color:white; margin-right:20px"></span>-->
+                    <a id="author-link" href="" target="_blank"><span id="author" style="color:white; margin-right:20px">click the twitter icon to tweet the quote!</span></a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Icons -->
+<div class="wrapper">
+    <button id="New_Quote" class="icon"></button>
+    <a id="Tweet-Link" class="twitter-share-button" href="" target="_blank">
+        <div id="Tweet" class="icon"></div>
+    </a>
+</div>
+
+
+
+<!-- footer -->
+<div class="container-fluid" style="position:fixed; bottom: 0px; width:100%">
+
+    <!-- Credits -->
+    <div class="row text-center">
+        <div class="col-md-12" style="color:white; background-color:black; opacity:0.6">
+            Background image: <a href="https://unsplash.com/@frsphoto" target="_blank">Felix Russell-Saw</a> ||
+            Icons: <a href="http://www.iconarchive.com/" target="_blank">Icon Archive</a> ||
+            Quotes: <a href="http://www.quotes.net/" target="_blank">Quotes.net</a> ||
+            <a href="http://www.quotes.net/quotes_api.php" target="_blank">Quotes API</a>
+        </div>
+    </div>
+
+    <!-- Creator -->
+    <div class="row text-center">
+        <div class="col-md-12" style="color:white; background-color:black; opacity:0.6">
+            <a href="http://www.vampiire.org" target="_blank" style="color: #FF6600;">Vampiire Codes</a>
+        </div>
+    </div>
+</div>
+
+
+<!-- SCRIPT CODE BELOW THIS LINE -->
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<script src="QuoteJS.js"></script>
+
+</body>
+</html>

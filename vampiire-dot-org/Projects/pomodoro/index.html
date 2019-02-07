@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vampiire Timer</title>
+
+    <link href="pomadoro.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<div id="container">
+    <div class="time_box" id="work">
+        <div id="timerDisplay" class="time">25:00</div>
+        <button id="timerPlus" class="controls plus">+</button>
+        <button id="timerMinus" class="controls minus">-</button>
+    </div>
+    <div class="title" id="workTitle">WORK</div>
+    <div id="buttons">
+        <button id="reset" class="controlButtons">RESET</button>
+        <button id="pause" class="controlButtons">START</button>
+        <button id="default" class="controlButtons">DEFAULT</button>
+
+    </div>
+    <div class="time_box" id="break">
+        <div id="breakDisplay" class="time">5:00</div>
+        <button id="breakPlus" class="controls plus">+</button>
+        <button id="breakMinus" class="controls minus">-</button>
+    </div>
+    <div class="title" id="breakTitle">BREAK</div>
+</div>
+
+<audio id="ding" preload="auto" src="Media/timer_ding.mp3"></audio>
+
+<!-- Scripts Below This Line -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="pomodoro.js"></script>
+</body>
+</html>

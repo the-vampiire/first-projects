@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Halloween Simon</title>
+
+    <link href="Simon.css" type="text/css" rel="stylesheet">
+
+</head>
+<body>
+
+<div id="pad">
+    <div class="row">
+        <div id="touch1" class="touch">
+            <div id="bat_icon"></div>
+        </div>
+        <div id="touch2" class="touch">
+            <div id="cauldron_icon"></div>
+        </div>
+    </div>
+    <div id="center">
+        <!--<div id="title"><span id="halloween">Halloween</span> Simon</div>-->
+        <div id="screen" class="screenGlow"></div>
+        <div id="button_row">
+            <!--<button id="strict">strict</button>-->
+            <button id="power">START</button>
+        </div>
+
+    </div>
+    <div class="row">
+        <div id="touch3" class="touch ">
+            <div id="ghost_icon"></div>
+        </div>
+        <div id="touch4" class="touch">
+            <div id="zombie_icon"></div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Audio Files -->
+<audio id="bat_screech" src="Media/Sounds/Bats_Screech.mp3"></audio>
+<audio id="bubbling_sound" src="Media/Sounds/Bubbling_Cauldron.mp3"></audio>
+<audio id="zombie_groan" src="Media/Sounds/Zombie_Groan.mp3"></audio>
+<audio id="ghost_moan" src="Media/Sounds/Ghost_Moan.mp3"></audio>
+
+
+<!-- Scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="Simon.js"></script>
+
+</body>
+</html>

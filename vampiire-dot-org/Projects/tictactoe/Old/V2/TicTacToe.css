@@ -1,0 +1,103 @@
+body{
+    background-color: black;
+}
+
+.modal{
+    text-align: center;
+    width: 332px;
+    height: 332px;
+    position: absolute;
+    display: block;
+    background-color: black;
+    /*border: groove #FF6600 2px;*/
+    margin: 100px auto;
+    left: 0px;
+    right: 0px;
+    z-index: 10;
+    color: #FF6600;
+}
+
+.play_area{
+    z-index: 1;
+    display: block;
+    position: absolute;
+    height: 332px;
+    width: 332px;
+    margin: 100px auto;
+    left: 0;
+    right: 0;
+}
+
+.row{
+    display: inline-flex;
+}
+
+#o{
+    margin-top: 40px;
+    margin-left: 0px;
+    background: url('Images/o_fangs.jpg');
+    height: 100px;
+    width: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#x{
+    margin-top: 40px;
+    margin-left: 40px;
+    background: url('Images/x_stake.png');
+    height: 100px;
+    width: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#fangs{
+    margin-left: 10px;
+}
+
+#stakes{
+    margin-left: 100px;
+}
+
+.options{
+    display: inline-flex;
+    margin-top: 0px;
+}
+
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    border: groove #FF6600 4px;
+}
+
+.x{
+    background:url( 'Images/x_stake.png');
+    background-size: 90px 90px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.o{
+    background:url( 'Images/o_fangs.jpg');
+    background-size: 90px 90px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#winnerOutput{
+    font-size: 4em;
+    text-align: center;
+    width: 400px;
+    height: 100px;
+    color: #FF6600;
+    margin: 420px auto;
+    display: block;
+    position: absolute;
+    left: 0px;
+    right: 0;
+}
+

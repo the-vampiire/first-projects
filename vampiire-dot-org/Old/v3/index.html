@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- META TAGS -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- FONT AWESOME -->
+    <script src="https://use.fontawesome.com/c60112b331.js"></script>
+
+    <!-- FONTS -->
+    <link href='https://fonts.googleapis.com/css?family=Nosifer' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative:900" rel="stylesheet">
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="Images/Vampiire_Codes_Fangs.ico" type="image/x-icon">
+
+
+    <!-- TAB TITLE -->
+    <title>Vampiire Codes</title>
+
+    <style>
+
+        /* NAVBAR */
+        .navbar-inverse{
+            background-color: black;
+            color: white;
+        }
+        .navbar-nav{
+            color:white;
+        }
+        .navbar-header{
+            color:white;
+        }
+
+        /* NAV-TABS */
+
+        .nav-tabs{
+            background-color:black;
+
+
+        }
+
+        .nav-tabs > li > a{
+            border: solid white 1px;
+            border-left: solid white 1px;
+            border-right: solid white 1px;
+            border-bottom: solid white 1px;
+            color: white;
+        }
+
+        .nav-tabs > li > a:hover{
+            background-color: white !important;
+            color:black;
+            border: solid black 1px;
+            border-left: solid black 1px;
+            border-right: solid black 1px;
+            border-bottom: solid black 1px;
+        }
+
+
+
+
+    </style>
+
+
+
+</head>
+
+<body style="background-color: black; font-family: Roboto;">
+
+<!-- MAIN NAVIGATION BAR -->
+<nav class="navbar navbar-inverse navbar-fixed-top" >
+<div class="container-fluid">
+    <!-- BRAND AND TOGGLE BUTTON -->
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-navbar" aria-expanded="false">
+            <img src="Images/Vampiire_Codes_Fangs.png" style="width:50px">
+        </button>
+        <a class="navbar-brand" href="#">VAMPIIRE CODES</a>
+    </div>
+
+    <!-- NAVIGATION ITEMS (TOGGLEABLE)-->
+    <div class="collapse navbar-collapse" id="main-navbar">
+        <!-- MENU ITEMS -->
+        <div id="menu-items">
+            <ul class="nav navbar-nav">
+                <li class="active"><a id="About-Button" href="#About">ABOUT</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">PROJECTS<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#Projects">Projects Overview</a></li>
+                        <li><a href="http://codepen.io/thevampiire/full/YZeBjj/" target="_blank">Tribute Page</a></li>
+                        <li><a href="http://www.vampiire.org/Projects/randomquote" target="_blank">Random Quote Generator</a></li>
+                        <li><a href="https://www.vampiire.org/Projects/weather" target="_blank">Weather WebApp</a></li>
+
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+</nav>
+
+
+
+
+<!-- ABOUT SECTION -->
+    <div id='About' class="container-fluid rounded" style="background-color:black; margin-bottom:50px">
+
+        <!-- BANNER ROW -->
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <img src="Images/Vampiire_Codes_Logo.png" alt="Vampiire Codes Banner" style="width:100%; margin-bottom: -50px;">
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+
+        <!-- ABOUT ROW -->
+        <div class="row" style="margin-bottom: 20px;">
+
+
+
+            <!-- ABOUT TEXT COLUMN -->
+            <div id="about-text" class="col-sm-9" style="background-color: black; padding-top:0px">
+        <p style="color:white;">
+            <h3 style="color:white">
+            I am <span id="Patrick">Patrick - </span>
+            <span id="programmer">an engineer and self-taught programmer</span>
+            <span id='Vampiire' style="color:#FF6600; display: none; font-family: 'Nosifer', cursive;">Vampiire</span>
+            <span id="creature" style="display:none;"> - a coder of the night</span>
+            </h3>
+
+            <!-- list description -->
+            <ul style="color:white; font-size: 1.25em">
+
+                <li>B.S. <span style="color: #FF6600;">Chemical Engineering</span> - University of South Florida</li>
+                <ul>
+                    <li>Held 3 leadership positions in the USF chapter of The American Institute of Chemical Engineers</li>
+                    <li>Experience presenting from over <span style="color:#FF6600">15 speaking engagements</span> as President of the largest chapter in the country</li>
+                    <li>Awarded the <span style="color:#FF6600">Chemical Engineering Student of the Year</span> and <span style="color:#FF6600">Outstanding Senior Design Presentation</span> awards</li>
+                </ul>
+            </ul>
+            <ul style="color:white; font-size: 1.25em">
+                <li>I have an <span style="color: #FF6600;">analytical mindset</span>, extensive background in <span style="color: #FF6600;">mathematics</span>, and <span style="color: #FF6600;">complex-problem solving</span> capabilities</li>
+                <li>I discovered programming after graduation and have dedicated <span style="color:#FF6600">8 hours</span> or more a day to studying and practice</li>
+                <li>Two of my greatest passions are <span style="color: #FF6600;">coding</span> and producing <span style="color: #FF6600;">creative solutions</span></li>
+                <li>I will be applying soon for a Junior Developer position</li>
+            </ul>
+        </p>
+
+        </div>
+
+        <!-- ABOUT IMAGE COLUMN -->
+            <div id="about-pic" class="col-sm-3 align-right" style="">
+                <img id='Color' src="Images/profile_classy.jpg" class="img-circle " style="width:100%; border: groove #FF6600 5px">
+                <img id='BW' src="Images/profile_picture_bw.jpg" class="img-circle " style="width:100%; display:none; border: groove #FF6600 5px">
+            </div>
+
+
+    <!-- if on mobile this correctly links to the Projects section...
+            <div id='Projects'></div>
+    -->
+
+        </div> <!-- /ABOUT ROW -->
+
+
+        </div> <!-- /ABOUT CONTAINER -->
+
+
+
+
+
+<div id="Projects" style="visibility: hidden"></div>
+
+<!-- Projects SECTION -->
+
+    <div class="container-fluid rounded" style="background-color:#FF6600;">
+
+    <!-- HEADER -->
+    <div class="jumbotron" style="background-color: black; margin-top:50px">
+        <h1 class="text-center" style="color: #FF6600; font-family: 'Cinzel Decorative', cursive; margin-top: -30px ">
+            <hr> Projects <hr>
+        </h1>
+
+        <!-- NAVIGATION BAR FOR PROJECT TABS-->
+        <ul id='Tabs' class="nav nav-tabs nav-justified" role="tablist" style=" margin-top:20px; font-size: large;">
+            <li role="presentation" class="active">
+                <a id='Overview-Tab' href="#Project-Overview" role="tab" data-toggle="tab">
+                    Projects Overview
+                </a>
+            </li>
+            <li role="presentation">
+                <a id='Tribute-Tab' href="#Tribute" role="tab" data-toggle="tab">
+                    Tribute Page
+                </a>
+            </li>
+            <li role="presentation">
+                <a id='Quote-Tab' href="#Quote" role="tab" data-toggle="tab">
+                    Random Quote
+                </a>
+            </li>
+            <li role="presentation">
+                <a id='Weather-Tab' href="#Weather" role="tab" data-toggle="tab">
+                    Weather WebApp
+                </a>
+            </li>
+        </ul>
+    </div> <!-- / CLOSE HEADER -->
+
+            <!-- PROJECT TABS -->
+            <div class="tab-content" style="margin-top: -20px;">
+
+                <!-- PROJECT OVERVIEW TAB -->
+                <div class="tab-pane active" role="tabpanel" id="Project-Overview">
+                    <div class="jumbotron" style="background-color: black">
+                        <div class="row" style="margin-bottom: -30px">
+
+                            <!-- PROJECT 1 IMAGE AND LINK -->
+                            <div class="col-md-4">
+                                <a href="http://codepen.io/thevampiire/full/YZeBjj/" target="_blank">
+                                    <img id='Overview1' class="img-thumbnail" src="Images/Tribute_Mockup.jpg" style="width:100%; margin-bottom: 10px">
+                                </a>
+                                <!-- PROJECT 1 CAPTION -->
+                                <div class="row" >
+                                    <div class="col-md-12 text-center">
+                                        <h3 id="Overview1Caption1" style="background-color: black; color: whitesmoke; opacity: 0.8; display: none; margin-top:-60px; padding: 20px 0px 5px 0px">
+                                            Tribute Page
+                                        </h3>
+                                    </div>
+                                </div>
+                            </div> <!-- / END PROJECT 1 -->
+
+                            <!-- PROJECT 2 IMAGE AND LINK -->
+                            <div class="col-md-4">
+                                <a href="http://www.vampiire.org/Projects/randomquote" target="_blank">
+                                    <img id='Overview2' class="img-thumbnail img-responsive" src="Images/Quote_Mockup.jpg" style="width:100%; margin-bottom: 10px">
+                                </a>
+                                <!-- PROJECT 2 CAPTION -->
+                                <div class="row">
+                                    <div class="col-md-12 text-center">
+                                        <h3 id="Overview1Caption2" style="background-color: black; color: whitesmoke; opacity: 0.8; display: none; margin-top:-60px; padding: 20px 0px 5px 0px">
+                                            Random Quote Generator
+                                        </h3>
+                                    </div>
+                                </div>
+                            </div> <!-- / END PROJECT 2 -->
+
+                            <!-- PROJECT 3 IMAGE AND LINK -->
+                            <div class="col-md-4">
+                                <a href="https://www.vampiire.org/Projects/weather" target="_blank">
+                                    <img id='Overview3' class="img-thumbnail" src="Images/Weather_App_Mockup.jpg" style="width:100%; margin-bottom: 10px">
+                                </a>
+                                <!-- PROJECT 3 CAPTION -->
+                                <div class="row">
+                                    <div class="col-md-12 text-center">
+                                        <h3 id="Overview1Caption3" style="background-color: black; color: whitesmoke; opacity: 0.8; display: none; margin-top:-60px; padding: 20px 0px 5px 0px ">
+                                            Weather WebApp
+                                        </h3>
+                                    </div>
+                                </div>
+                            </div> <!-- / END PROJECT 3 -->
+
+
+
+
+
+                            <!-- ARROW RETURN TO TOP -->
+                            <div id="overview-return-arrow" class="row" style="margin-top: 20px">
+                                <div class="col-md-12 text-center">
+                                    <a href="#Projects">
+                                        <i style="color:#FF6600; padding-top: 20px" class="fa fa-angle-double-up fa-2x" aria-hidden="true"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div> <!-- / END OVERVIEW ROW 1 -->
+                    </div> <!-- / END JUMBOTRON -->
+                </div> <!-- / END PROJECT OVERVIEW TAB -->
+
+                <!-- PROJECT 1 -->
+                <div class="tab-pane" role="tabpanel" id="Tribute">
+                    <div class="jumbotron" style="background-color: black;">
+                        <!-- PROJECT IMAGE AND LINK -->
+                        <div class="row">
+                            <div class="col-md-3"></div>
+                            <div class="col-md-6">
+                                <a href="http://codepen.io/thevampiire/full/YZeBjj/" target="_blank">
+                                    <img id='Tribute-Image' src="Images/Tribute_Mockup.jpg" class="img-thumbnail" style="width:100%">
+                                </a>
+                                <!-- PROJECT 1 ACCORDION HEADER -->
+                                <div id="Project1-Accordion" class="panel-group" role="tablist" style="margin-top: 10px">
+                                    <div class="panel panel-default" style="background-color: white; color: black">
+                                        <div class="panel-heading" role="tab" style="background-color: white; color: black; border: ridge black 1px">
+                                            <div class="row">
+                                                <a style="color: black;" role="button" class="collapsed" data-toggle="collapse" data-parent="#Project1-Accordion" href="#Project1-Description">
+                                                <div class="col-xs-1">
+                                                    <i class="fa fa-arrow-circle-o-down fa-2x down-arrow" aria-hidden="true" style="color:black; opacity:0.7"></i>
+                                                </div>
+                                                <div class="col-xs-10 text-center">
+                                                    <p style="font-size: 1.5em; margin-bottom:-5px">
+                                                        Tribute Page
+                                                    </p>
+                                                </div>
+                                                </a>
+                                            </div>
+                                        </div> <!-- / CLOSE PANEL HEADING -->
+
+                                        <!-- PROJECT 1 ACCORDION BODY -->
+                                        <div id="Project1-Description" class="panel-collapse collapse" role="tabpanel">
+                                            <div class="panel-body" style="border: ridge black 1px">
+                                                <h3 class="text-center">Goal</h3>
+                                                <p class="text-center" style="font-size: medium">Create a tribute page that fulfills the following user stories</p>
+                                                <h3 class="text-center">User Stories</h3>
+                                                <ul style="font-size: large">
+                                                    <li>
+                                                        I can view a tribute page with an image and text
+                                                    </li>
+                                                    <li>
+                                                        I can click on a link that will take me to an external website
+                                                        with further information on the topic.
+                                                    </li>
+                                                    <li>
+                                                        I can hover over the image for a time-line and history of the subject
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div> <!-- / CLOSE PANEL BODY -->
+                                    </div>
+                                </div> <!-- / CLOSE PROJECT 1 ACCORDION -->
+                            </div>
+                        </div>
+                    </div> <!-- / END JUMBOTRON PROJECT 1 -->
+                </div> <!-- / END TAB PROJECT 1 -->
+
+                <!-- PROJECT 2 -->
+                <div class="tab-pane" role="tabpanel" id="Quote">
+                    <div class="jumbotron" style="background-color: black;">
+                        <!-- PROJECT IMAGE AND LINK -->
+                        <div class="row">
+                            <div class="col-md-3"></div>
+                            <div class="col-md-6">
+                                <a href="http://www.vampiire.org/Projects/randomquote" target="_blank">
+                                    <img id='Quote-Image' src="Images/Quote_Mockup.jpg" class="img-thumbnail" style="width:100%;">
+                                </a>
+                                <!-- PROJECT 2 ACCORDION HEADER -->
+                                <div id="Project2-Accordion" class="panel-group" role="tablist" style="margin-top: 10px">
+                                    <div class="panel panel-default" style="background-color: white; color: black;">
+                                        <div class="panel-heading" role="tab" style="background-color: white; color: black; border: ridge black 1px">
+                                            <div class="row">
+                                                <a style="color: black;" role="button" class="collapsed" data-toggle="collapse" data-parent="#Project2-Accordion" href="#Project2-Description">
+                                                    <div class="col-xs-1">
+                                                        <i class="fa fa-arrow-circle-o-down fa-2x down-arrow" aria-hidden="true" style="color:black; opacity:0.7"></i>
+                                                    </div>
+                                                    <div class="col-xs-10 text-center">
+                                                        <p style="font-size: 1.5em; margin-bottom:-5px">
+                                                            Random Quote Generator
+                                                        </p>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div> <!-- / CLOSE PANEL HEADING -->
+
+                                        <!-- PROJECT 2 ACCORDION BODY -->
+                                        <div id="Project2-Description" class="panel-collapse collapse" role="tabpanel">
+                                            <div class="panel-body" style="border: ridge black 1px">
+                                                <h3 class="text-center">Goal</h3>
+                                                <p class="text-center" style="font-size: medium">
+                                                    Create a random quote generator utilizing an API request
+                                                </p>
+                                                <h3 class="text-center">User Stories</h3>
+                                                <ul style="font-size: large">
+                                                    <li>
+                                                        I can press a button to show me a new random quote
+                                                    </li>
+                                                    <li>
+                                                        I can press a button to automatically tweet out the current quote
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div> <!-- / CLOSE PANEL BODY -->
+                                    </div>
+                                </div> <!-- / CLOSE PROJECT 2 ACCORDION -->
+                            </div>
+                        </div>
+                    </div> <!-- / END JUMBOTRON PROJECT 2 -->
+                </div> <!-- / END TAB PROJECT 2 -->
+
+                <!-- PROJECT 3 -->
+                <div class="tab-pane" role="tabpanel" id="Weather">
+                    <div class="jumbotron" style="background-color: black;">
+                        <!-- PROJECT IMAGE AND LINK -->
+                        <div class="row">
+                            <div class="col-md-3"></div>
+                            <div class="col-md-6">
+                                <a href="https://www.vampiire.org/Projects/weather" target="_blank">
+                                    <img id='Weather-Image' src="Images/Weather_App_Mockup.jpg" class="img-thumbnail" style="width:100%;">
+                                </a>
+                                <!-- Project 3 ACCORDION HEADER -->
+                                <div id="Project3-Accordion" class="panel-group" role="tablist" style="margin-top: 10px">
+                                    <div class="panel panel-default" style="background-color: white; color: black;">
+                                        <div class="panel-heading" role="tab" style="background-color: white; color: black; border: ridge black 1px">
+                                            <div class="row">
+                                                <a style="color: black;" role="button" class="collapsed" data-toggle="collapse" data-parent="#Project3-Accordion" href="#Project3-Description">
+                                                    <div class="col-xs-1">
+                                                        <i class="fa fa-arrow-circle-o-down fa-2x down-arrow" aria-hidden="true" style="color:black; opacity:0.7"></i>
+                                                    </div>
+                                                    <div class="col-xs-10 text-center">
+                                                        <p style="font-size: 1.5em; margin-bottom:-5px">
+                                                            Weather WebApp
+                                                        </p>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div> <!-- / CLOSE PANEL HEADING -->
+
+                                        <!-- Project 3 ACCORDION BODY -->
+                                        <div id="Project3-Description" class="panel-collapse collapse" role="tabpanel">
+                                            <div class="panel-body" style="border: ridge black 1px">
+                                                <h3 class="text-center">Goal</h3>
+                                                <p class="text-center" style="font-size: medium">
+                                                    Create a weather webapp that uses location and weather API services
+                                                </p>
+                                                <h3 class="text-center">User Stories</h3>
+                                                <ul style="font-size: large">
+                                                    <li>
+                                                        I can have my location and local weather conditions automatically determined and displayed
+                                                    </li>
+                                                    <li>
+                                                        I can view dynamic background images based on the time of day and weather conditions
+                                                    </li>
+                                                    <li>
+                                                        I can toggle a sidebar menu with multiple options to customize the weather data display
+                                                    </li>
+                                                    <li>
+                                                        I can use an experimental feature which automatically requests a Flickr image of my location to set as the background
+                                                    </li>
+                                                    <li>
+                                                        I can set a home-screen icon for this page on iOS. When opened it displays in a standalone window and behaves as an app
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div> <!-- / CLOSE PANEL BODY -->
+                                    </div>
+                                </div> <!-- / CLOSE Project 3 ACCORDION -->
+                            </div>
+                        </div>
+                    </div> <!-- / END JUMBOTRON Project 3 -->
+                </div> <!-- / END TAB Project 3 -->
+
+
+
+            </div> <!-- / CLOSE PROJECT TABS -->
+
+
+    </div> <!-- / CLOSE Projects DIV -->
+
+
+<div style="visibility: hidden" id="Contact"></div>
+<!-- CONTACT SECTION -->
+<div class="container-fluid" style="background-color: #FF6600;">
+
+    <!-- SOCIAL MEDIA LINKS -->
+        <div class="row text-center" style="margin-bottom: 30px; padding-left:15px">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+
+
+                <a href="https://github.com/the-vampiire" target="_blank">
+                    <i id='Github' class="fa fa-code-fork fa-5x" aria-hidden="true" style="color:black" data-toggle="tooltip" data-placement="left" title="GitHub"></i>
+                </a>
+                    <i class="fa fa-ellipsis-h fa-3x" aria-hidden="true" style="color:black"></i>
+                <a href="https://www.freecodecamp.com/the-vampiire" target="_blank">
+                    <i id='FCC' class="fa fa-free-code-camp fa-5x" aria-hidden="true" style="color: black" data-toggle="tooltip" data-placement="top" title="Free Code Camp"></i>
+                </a>
+                    <i class="fa fa-ellipsis-h fa-3x" aria-hidden="true" style="color:black"></i>
+                <a href="https://www.linkedin.com/in/patrickdcleary/" target="_blank">
+                    <i id='LinkedIn' class="fa fa-linkedin-square fa-5x" aria-hidden="true" style="color: black" data-toggle="tooltip" data-placement="right" title="Linked In"></i>
+                </a>
+
+            </div>
+        </div>
+
+</div> <!-- / CLOSE CONTACT DIV -->
+
+<!-- FOOTER -->
+<div class="container-fluid rounded text-center" style="background-color:black">
+    <h4 class="text-center" style="color: #FF6600">
+        <a style="font-family: 'Nosifer', cursive; color: #FF6600" href="#About">
+            Vampiire Codes
+        </a>
+    </h4>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!---------------- SCRIPT SECTION BELOW HERE DO NOT TOUCH ------------------>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="Portfolio.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,52 @@
+body{
+    background-color: blanchedalmond ;
+}
+
+hr{
+    border: double blanchedalmond 2px;
+}
+
+#banner{
+    background: url("Images/Wikipedia-banner.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 100%;
+    height: 163px;
+}
+
+#links{
+    color: white; !important;
+    background-color: #0084b4;
+    border: groove white 2px;
+    box-shadow: #4b5257 -2px -3px 5px;
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+}
+
+#links a:link{
+
+    font-size: 1.5em;
+    color: white;
+    text-decoration: underline;
+}
+
+#links a:visited{
+    font-size: 1.5em;
+    text-justify: auto;
+    color: white;
+}
+
+#search_button{
+    margin-top: 120px;
+    outline: none;
+    border: none;
+    background: none;
+}
+
+#random_button{
+    margin-top: 10px;
+    outline: none;
+    border: none;
+    background: none;
+}

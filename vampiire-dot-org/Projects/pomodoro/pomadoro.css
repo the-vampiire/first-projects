@@ -1,0 +1,169 @@
+body{
+    background-color: navajowhite;
+}
+
+#container{
+    width: 600px;
+    height: 250px;
+    margin: 200px auto;
+    background-color:rgba(0,0,0,0.7);
+    border-radius: 20px;
+    box-shadow: grey -5px -3px 5px;
+}
+
+/*button{*/
+    /*border: none;*/
+/*}*/
+
+button:focus{
+    outline: none;
+}
+
+.time_box{
+    width: 150px;
+    height: 150px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    margin-top: 50px;
+    position: absolute;
+}
+
+#work{
+    margin-left: 50px;
+    positon: absolute;
+}
+
+#break{
+    margin-left: 400px;
+    positon: relative;
+}
+
+.time{
+    font-size: 3em;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.controls{
+    width: 50px;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    font-size: 1.5em;
+    box-shadow: black -1px -1px 1px;
+}
+
+.plus{
+    margin: 20px 0px 0px 10px;
+}
+
+.minus{
+    margin: 20px 0px 0px 30px;
+}
+
+#buttons{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin: 43px 0px 0px 244px;
+
+}
+
+.controlButtons{
+    background-color: white;
+    color: black;
+    margin-top: 5px;
+    border-radius: 50px;
+    border: groove white 2px;
+    height: 50px;
+    font-size: 1.5em;
+    box-shadow: white -2px -1px 1px;
+}
+
+
+#pause{
+    background-color: green;
+    color: white;
+}
+
+.glow{
+    box-shadow: rgba(50, 205, 50, 0.8) 0px -5px 3px;
+}
+
+.title{
+    font-size: 2em;
+    color: white;
+    position: absolute;
+}
+
+#workTitle{
+    margin: 200px 0px 0px 75px;
+}
+
+#breakTitle{
+    margin: 200px 0px 0px 420px; /* ;) */
+}
+
+.decoration{
+    text-decoration: rgba(50, 205, 50, 0.8) underline;
+    /*color: rgba(50, 205, 50, 0.8);*/
+}
+
+
+
+
+
+
+
+/*#container{*/
+    /*width: 100%;*/
+    /*height: 44px;*/
+    /*display: inline-flex;*/
+/*}*/
+
+/*.timer_box{*/
+    /*width: 120px;*/
+    /*height: 40px;*/
+    /*border: groove black 2px;*/
+/*}*/
+
+/*.controls{*/
+    /*margin: 0 auto;*/
+    /*display: inline-flex;*/
+    /*justify-content: space-around;*/
+
+/*}*/
+
+/*button{*/
+    /*border: groove white 2px;*/
+    /*background-color: black;*/
+    /*color: white;*/
+    /*border-radius: 5px;*/
+/*}*/
+
+/*#pause{*/
+    /*border-radius: 0px;*/
+    /*background-color: green;*/
+/*}*/
+
+/*#reset{*/
+    /*border-radius: 0px;*/
+/*}*/
+
+/*#default{*/
+    /*border-radius: 0px;*/
+/*}*/
+
+/*.plus{*/
+    /*background-color: rgba(0, 100, 0, 0.8);*/
+/*}*/
+
+/*.minus{*/
+    /*background-color: rgba(190, 0, 0, 0.8);*/
+/*}*/
+
+
+/*.time{*/
+    /*font-size: 2em;*/
+    /*text-align: center;*/
+/*}*/

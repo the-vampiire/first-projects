@@ -1,0 +1,181 @@
+body{
+    background: url("Media/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 90vh;
+    width: 90vw;
+}
+
+
+#pad{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin: 30px auto;
+    left: 0;
+    right: 0;
+    height: 450px;
+    width: 450px;
+}
+
+#center{
+    background-color: #464a4c;
+    height: 210px;
+    width: 210px;
+    z-index: 10;
+    position: absolute;
+    border-radius: 100%;
+    margin: 24% 0 0 24.5%;
+    border: groove black 5px;
+}
+
+#screen{
+    position: absolute;
+    width: 60px;
+    height: 40px;
+    background-color: rgba(152, 252, 152, 0.3);
+    margin: 70px 8px 0px 55px;
+    border-radius: 5px;
+    border: double white 2px;
+    box-shadow: inset rgba(0, 0, 0, 0.4) 4px 2px;
+    color: black;
+    font-size: 2em;
+    text-align: center;
+}
+
+.screenGlow{
+    background-color: rgba(36, 252, 87, 0.4) !important;
+}
+
+#button_row{
+    display: inline-flex;
+    margin: 70% 0 0 35%;
+}
+
+button{
+    /*border: none;*/
+    color: #FF6600;
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+}
+
+#power{
+    background-color: green !important;
+}
+
+.row{
+    display: inline-flex;
+    z-index: 1;
+}
+
+#touch1{
+    background-color: #FF6600;
+    box-shadow: rgba(0,0,0,1) 5px 5px 20px 5px;
+    width: 200px;
+    height: 200px;
+    border-top-left-radius: 100%;
+    border: solid black 10px;
+    z-index: auto;
+}
+
+#bat_icon{
+    height: 80px;
+    width: 80px;
+    background: url("Media/Icons/bats.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 30% 0 0 30%;
+    display: none;
+}
+
+.touch1glow{
+    box-shadow: #FF6600 0px 0px 200px !important;
+}
+
+#touch2{
+    background-color: rgba(145, 25, 180, 1);
+    /*   background-color: purple; */
+    width: 200px;
+    height: 200px;
+    border-top-right-radius: 100%;
+    border: solid black 10px;
+    z-index: auto;
+}
+
+#cauldron_icon{
+    height: 80px;
+    width: 80px;
+    background: url("Media/Icons/cauldron.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 30% 0 0 30%;
+    display: none;
+}
+
+.touch2glow{
+    box-shadow: rgba(145, 25, 180, 1)  0px 0px 200px;
+}
+
+#touch3{
+    background-color: rgba(0,0,0, 0.3) ;
+    width: 200px;
+    height: 200px;
+    border-top-left-radius: 100%;
+    border: solid black 10px;
+    transform: rotate(270deg);
+    z-index: auto;
+}
+
+
+.touch3glow{
+    background-color: rgba(255,255,255, 0.3) !important;
+    box-shadow: rgba(255, 255, 255, 1)  0px 0px 200px;
+}
+
+#ghost_icon{
+    height: 80px;
+    width: 80px;
+    background: url("Media/Icons/ghost.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: rotate(70deg);
+    margin: 30% 0 0 30%;
+    display: none;
+}
+
+
+#touch4{
+    background-color: limegreen ;
+    width: 200px;
+    height: 200px;
+    border-top-left-radius: 100%;
+    border: solid black 10px;
+    transform: rotate(180deg);
+    z-index: auto;
+}
+
+
+#zombie_icon{
+    height: 80px;
+    width: 80px;
+    background: url("Media/Icons/zombies.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: rotate(220deg);
+    margin: 30% 0 0 30%;
+    display: none;
+}
+
+
+
+.touch4glow{
+    box-shadow: limegreen  0px 0px 150px;
+}
+
+

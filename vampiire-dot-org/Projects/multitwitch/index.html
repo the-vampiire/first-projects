@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<!-- META TAGS -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- iOS WebApp Formatting -->
+    <!-- Enable iOS web app formatting -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="translucent black">
+    <meta name="appl-mobile-web-app-title" content="Multi Twitch">
+    <!-- iOS web app icon -->
+    <link href="" rel="apple-touch-icon">
+    <!-- iOS web app splash screen -->
+    <link href="" rel="apple-touch-startup-image">
+    <!-- TAB TITLE -->
+    <title>Multi Twitch</title>
+    <!-- TAB ICON -->
+    <link rel="shortcut icon" href="" type="image/x-icon">
+
+<!-- STYLING -->
+    <!-- Bootstrap -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <!-- FONT AWESOME -->
+    <script src="https://use.fontawesome.com/c60112b331.js"></script>
+    <!-- FONT -->
+    <link href='https://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet' type='text/css'>
+    <!-- CSS -->
+    <link href="Twitch.css" type="text/css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="modal">
+    <div style="float: left; color: white">
+        <i class="fa fa-window-close fa-2x" aria-hidden="true"></i>
+    </div>
+    <div id="instructions">
+    </div>
+</div>
+
+    <div class="container-fluid" style="background-color: rgba(255,255,255, 0.9)">
+        <img style="float: right" src="https://ttv-api.s3.amazonaws.com/assets/connect_dark.png" class="twitch-connect" href="#" />
+
+        <div class="title_combo container"">
+            <div class="title_font">
+                MULTI
+            </div>
+            <div id="twitch_logo"></div>
+        </div>
+    </div>
+
+    <div id="container1" class="container-fluid">
+        <div id="jumbotron_online" class="jumbotron">
+        </div>
+    </div>
+
+
+<!-- SCRIPTS BELOW THIS LINE -->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <!-- jQuery UI -->
+
+        <script
+                src="https://code.jquery.com/ui/1.11.3/jquery-ui.min.js"
+                integrity="sha256-xI/qyl9vpwWFOXz7+x/9WkG5j/SVnSw21viy8fWwbeE="
+                crossorigin="anonymous">
+        </script>
+
+    <!-- Bootstrap -->
+
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!-- Twitch JS -->
+
+        <script src="Twitch.js"></script>
+
+    <!-- Twitch JS SDK -->
+
+        <script src="https://ttv-api.s3.amazonaws.com/twitch.min.js"></script>
+
+
+</body>
+</html>

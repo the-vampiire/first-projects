@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Halloween Simon</title>
+
+    <!-- FONT AWESOME -->
+    <link href='https://fonts.googleapis.com/css?family=Nosifer' rel='stylesheet' type='text/css'>
+
+    <link href="Simon.css" type="text/css" rel="stylesheet">
+
+</head>
+<body>
+<div id="title"><span style="color: #FF6600;font-family: 'Nosifer', cursive; font-size: 3em;" >VAMPIIRE </span>
+    <span style="font-size: 3em"> SIMON</span></div>
+<div id="pad">
+    <div class="row">
+        <div id="touch1" class="touch">
+            <button id="touch1inner"></button>
+            <div id="bat_icon"></div>
+        </div>
+        <div id="touch2" class="touch">
+            <button id="touch2inner"></button>
+            <div id="cauldron_icon"></div>
+        </div>
+    </div>
+    <div id="center">
+        <!--<div id="title"><span id="halloween">Halloween</span> Simon</div>-->
+        </div>
+    <div id="screen" class=""></div>
+    <div id="button_row">
+
+    </div>
+    <button id="power" class="control" style="font-size: 1em">start</button>
+    <button id="strict" class="control" style="font-size: 1em">strict</button>
+    <div class="row">
+        <div id="touch3" class="touch">
+            <button id="touch3inner"></button>
+            <div id="ghost_icon"></div>
+        </div>
+        <div id="touch4" class="touch">
+            <button id="touch4inner"></button>
+            <div id="zombie_icon"></div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Audio Files -->
+<audio id="door_creek" src="Media/Sounds/door_creak.mp3"></audio>
+<audio id="bat_screech" src="Media/Sounds/Bats_Screech.mp3"></audio>
+<audio id="bubbling_sound" src="Media/Sounds/Bubbling_Cauldron.mp3"></audio>
+<audio id="zombie_groan" src="Media/Sounds/Zombie_Groan.mp3"></audio>
+<audio id="ghost_moan" src="Media/Sounds/Ghost_Moan.mp3"></audio>
+
+
+<!-- Scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="Simon.js"></script>
+
+</body>
+</html>
